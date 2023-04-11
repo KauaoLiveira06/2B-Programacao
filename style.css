@@ -4,10 +4,20 @@
     --azul-eclesiástico: #42607B;
     --cinzão: #B9BBBE;
 }
+*
 .cabecalho{
     background-color: var(--azul-jeans);
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
     width: 10%;
+    margin: 10px;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 50px;
 }
