@@ -4,7 +4,12 @@
     --azul-eclesiástico: #42607B;
     --cinzão: #B9BBBE;
 }
-*
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     background-color: var(--azul-jeans);
     display: flex;
@@ -20,4 +25,9 @@
     display: inline-block;
     padding: 30px 20px;
     font-size: 50px;
+}
+
+.principal{
+    background-color: var(--azul-eclesiástico);
+    color: #FFFFFF;
 }
